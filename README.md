@@ -19,3 +19,5 @@
 ## Prettier
 
 1. Add Prettier rules
+
+## Git Hooks (Husky)
