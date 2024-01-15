@@ -1,12 +1,30 @@
 {
-    "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+    "extends": [
+        "next",
+        "next/core-web-vitals",
+        "eslint:recommended",
+        "plugin:storybook/recommended",
+        "plugin:storybook/recommended"
+    ],
     "globals": {
         "React": "readonly"
     },
     "rules": {
         "no-unused-vars": [
             1,
-            { "args": "after-used", "argsIgnorePattern": "^_" }
+            {
+                "args": "after-used",
+                "argsIgnorePattern": "^_"
+            }
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": ["**/*.stories.*"],
+            "rules": {
+                "storybook/hierarchy-separator": "error",
+                "import/no-anonymous-default-export": "off"
+            }
+        }
+    ]
 }

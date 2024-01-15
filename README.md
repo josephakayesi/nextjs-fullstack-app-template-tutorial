@@ -28,3 +28,7 @@
 2. Add debug scripts to `.vscode/launch.json`
 
 ## Directory Structure
+
+1. Use the src/ folder pattern
+
+## Storybook
