@@ -21,3 +21,10 @@
 1. Add Prettier rules
 
 ## Git Hooks (Husky)
+
+## Debugging
+
+1. Add `.vscode/settings.json` for format on save options
+2. Add debug scripts to `.vscode/launch.json`
+
+## Directory Structure
