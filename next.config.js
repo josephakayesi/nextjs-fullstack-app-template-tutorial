@@ -2,7 +2,12 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['i.pravatar.cc'],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'i.pravatar.cc',
+            },
+        ],
     },
 };
 

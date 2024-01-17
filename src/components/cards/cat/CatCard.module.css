@@ -59,12 +59,12 @@
 
 .user {
     display: flex;
-
+    align-items: center;
     gap: 0.5rem;
 }
 
 .user__image {
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .user__info > small {
