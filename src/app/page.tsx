@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
 import Search from '../components/utility/search/Search';
-import { NextPageWithLayout } from './page';
+import { NextPageWithLayout } from './page.d';
 
 const Home: NextPageWithLayout = () => {
     const { locale } = useRouter();
